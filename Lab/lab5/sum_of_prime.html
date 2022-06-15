@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            let sum=0,a=0;
+            for(let i=1;i<=50;i++){
+                for(let j=1;j<=i;j++){
+                    if (i%j==0){
+                        a=a+1;
+                    }
+                }
+                if (a<=2){
+                    sum=sum+i;
+                }
+                a=0;
+            }
+            console.log("the sum is ",sum);
+        
+        </script>
+    </body>
+</html>
