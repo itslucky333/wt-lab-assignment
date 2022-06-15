@@ -1,0 +1,16 @@
+specificity vaneko harek specifier ma euta number assign gareko hunxa. tyo number jasko dherai hunxa tyo style le precedence pauxa. specificity number hunxa.
+
+normal specifier < class < id < inline.
+internal and external css has same specificity, those css tags which comes latter has effect in it.
+
+
+Selector	Specificity Value	Calculation
+p	1	1
+p.test	11	1 + 10
+p#demo	101	1 + 100
+<p style="color: pink;">	1000	1000
+#demo	100	100
+.test	10	10
+p.test1.test2	21	1 + 10 + 10
+#navbar p#demo	201	100 + 1 + 100
+*	0	0 (the universal selector is ignored)

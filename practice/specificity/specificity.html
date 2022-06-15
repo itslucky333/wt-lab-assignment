@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        h1{
+            color:blue;
+        }
+        #title{
+            color:black;
+        }
+        .heading{
+            color:pink;
+        }
+        </style>
+    <!-- <link rel="stylesheet" href="specificity.css"> -->
+</head>
+<link rel="stylesheet" href="specificity.css">
+<body>
+    <h1>this is simple heading</h1>
+    <h1 class ="heading external" >this has class</h1>
+    <h1 id="title"> this has id </h1>
+    <h1 class="heading" id="title"    style= "color : purple;"> inline heading</h1>
+</body>
+</html>
