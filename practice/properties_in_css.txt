@@ -1,0 +1,7 @@
+properties of css
+1. color
+    1 color can be choosed on the basis of name
+    2 color can be given on the basis of rgb(its value range from 0 to 255 )
+    we can write alpha with rgb- it gives opacity of color.
+    3  hexadecimalcolor 
+

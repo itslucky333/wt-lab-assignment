@@ -1,0 +1,11 @@
+selectors in html
+types of selectors
+1 type selectors- h1/h2
+2 class selectors- gives id and class name to different elements.
+attribute selectors- 
+pseudo-class selectors - hover, visited 
+pseudo element selectors
+combinator selectors
+universal selectors
+element selectors
+we can select multiple elements using comma
