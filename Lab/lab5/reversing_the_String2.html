@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>To print the string in reverse order</p>
+
+
+<p id="here"></p>
+
+<script>
+    let a,b;
+    a=prompt("Enter a string");
+    reverse();
+    function reverse(){
+        b=a.split("").reverse().join("");
+        document.getElementById("here").innerHTML=b;
+    }
+</script>
+
+</body>
+</html>
