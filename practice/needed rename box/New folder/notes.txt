@@ -1,0 +1,14 @@
+document object model (DOM) vaneko html ra css mix vayera banxa. browser ma first ma html load hunxa tespaxi html parse hunxa. css load hunxa ani css parse hunxa. html ra css milera dom tree banxa.
+units in css
+1) absolute units - these values dont changes, 
+    cm mm in px pt pc are absolute units
+2) relative units - %, em rem vw vh vmin vmax
+
+    em: relative to the font size of the element ( 2 em means 2 times the size of current font size)
+
+    rem: font size of the root element relative
+
+    vw: 1% of the width
+    vh:1% of the display height
+    vmin: 1% of the viewport of smaller diamension
+    vmax:1% of the viewport of larger diamension
