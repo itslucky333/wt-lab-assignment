@@ -17,6 +17,8 @@ tables, especially nested (one or more tables placed in another table) ones coul
 table created layout can hurt search engine optimization (SEO). Since search engines place a higher rating on content at the top of a web page i.e. navigation, thus placing a much lower rating on the table data.
 tables are not automatically responsive since they are sized according to their content. Viewing HTML table layouts on mobile devises will look like Figure 4 (below) and will require back-and-forth side swiping and device flipping to view it.
 
+<b> NOTE : text here are copied form study.com</b>
+
 
 
 ## Screenshots
