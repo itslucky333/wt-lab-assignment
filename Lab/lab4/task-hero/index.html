@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="hero.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero</title>
+    <style>
+        *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ----------------Header --------------- */
+.main{
+    margin: 30px 20px 20px 20px;
+}
+.txt1{
+    font-size: 30px;
+    color: black;
+    width: 30px;
+    height: 100px;
+    margin-left: 8px;
+    float: left;
+    width:27%;    
+}
+.nav{
+    float: left;
+    width:50%;
+    height: 120px;
+}
+a{
+    margin: 0 35px;
+}
+.btn1{
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 1px;
+    border-color: rgb(227, 221, 221); 
+    border-style: solid;     
+}
+/* -----------------body-------------- */
+.txt2{
+    clear: both;
+    font-size: 55px;
+}
+.container{
+    margin-left: 20px;
+    float: left;
+    width: 40%;
+}
+nav{
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+    margin: 0 0 1rem 0;
+}
+.tick{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    float: left;
+    filter: invert(44%) sepia(88%) saturate(2522%) hue-rotate(202deg) brightness(98%) contrast(97%);
+}
+.hero{
+    width: 50%;
+    height: 40%;
+    float: right;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.form{
+    position: relative;
+    width: 420px;
+    margin-top: 70px;
+    height: 40px;
+
+}
+input{ 
+    border: solid 1px;
+    padding: 5px 10px;
+    border-color: rgb(220, 213, 213);
+    color: gray;
+    width: 400px;
+    padding: 10px ;
+    float: left;
+}
+
+.btn2{
+    margin-bottom: 2px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 15px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <a class = "txt1"><b>Brand</b></a>
+        <section class="nav">
+            <a>Home</a>
+            <a>Components</a>
+            <a>Pricing</a>
+            <a>Contact</a>
+            <a>FAQ</a>
+        </section>
+            <button class="btn1">Contact us</button>    
+    </div>
+    <div class="container">
+        <div class="txt2"><b>Easiest way to create your website</b></div>
+        <nav>
+            <li><img class="tick" src="task-hero-tick-icon.svg" alt="tick-icon"> Clean and Simple Layout</li>
+            <li><img class="tick" src="task-hero-tick-icon.svg" alt="tick-icon">Just Copy Paste Codeing</li>
+            <li><img class="tick" src="task-hero-tick-icon.svg" alt="tick-icon">Easy to Use</li>
+        </nav>
+        <div class="form">
+            <input type="text" placeholder="Enter your email address">
+            <button class="btn2">Join Us</button>
+        </div>
+    </div>
+    </div>
+    <div>
+        <img class="hero" src="task-hero.png" alt="hero.png">
+    </div>
+</body>
+</html>
