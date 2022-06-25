@@ -16,7 +16,7 @@ Make a webpage with the following html elements:
 ## Documentation
 
 
-ordered and unordered list
+#### ordered and unordered list
 
 
 
@@ -28,11 +28,11 @@ Unordered list — Used to create a list of related items, in no particular orde
 Ordered list — Used to create a list of related items, in a specific order.
 
 
-semantic tags:
+#### semantic tags:
 
 Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents.
 
-text formating tags in HTML:
+#### text formating tags in HTML:
 
 HTML Formatting Elements
 
