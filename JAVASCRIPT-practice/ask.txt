@@ -1,0 +1,21 @@
+w3school ma document.write overwrite the things in javascript vaneko xa tyo malai thaha vayena
+
+
+i did till comment and directly jumped to the function section of w3school.
+
+javascript ko string search ma lastIndexOf("locate",15); xa bujina
+
+
+directly jumped to javascript if else
+
+
+
+
+
+
+
+
+
+
+remaining
+string Methods

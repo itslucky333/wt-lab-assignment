@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>new Date(year, month, ...)
+new Date(year, month, ...) creates a new date object with a specified date and time.
+
+7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):</p>
+<p id="here">text goes here</p>
+<p>Note: JavaScript counts months from 0 to 11:
+
+    January = 0.
+    
+    December = 11.</p>
+<script>
+let date = new Date(2022,11,11,10,59,59,10);
+document.getElementById("here").innerHTML=date;
+</script>
+</body></html>

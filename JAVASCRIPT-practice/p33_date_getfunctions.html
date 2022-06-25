@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<body>
+<p> we are learning about get year, months , day in this program</p>
+<p>internal clock in javascript starts from midnight January 1, 1970.</p>
+<p> the getTime(), returns the time in millisecond since then</p>
+<p id="here"></p>
+
+<p id="here1"></p>
+<p id="here2"></p>
+<p id="here3"></p>
+<p id="here4"></p>
+<p id="here5"></p>
+<p id="here6"></p>
+<p id="here7"></p>
+<p id="here8"></p>
+<p id="here9"></p>
+
+<script>
+let d= new Date();
+document.getElementById("here").innerHTML=d;
+document.getElementById("here1").innerHTML=d.getFullYear();
+document.getElementById("here2").innerHTML=d.getMonth();
+document.getElementById("here3").innerHTML=d.getDate();
+document.getElementById("here4").innerHTML=d.getHours();
+document.getElementById("here5").innerHTML=d.getMinutes();
+document.getElementById("here6").innerHTML=d.getSeconds();
+document.getElementById("here7").innerHTML=d.getMilliseconds();
+document.getElementById("here8").innerHTML=d.getTime();
+document.getElementById("here9").innerHTML=d.getDay();
+//document.getElementById("here").innerHTML=Date.now();
+</script>
+</body></head>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>we are learning about java script search in this program</title>
+</head>
+<body>
+
+<h3>we are learning about java script search in this program</h3>
+
+<p>the position of "laxmi" in the text "My name is Laxmikanta Poudel. Laxmi lives in Bharatpur." is</p>
+<p>remainder: the position in javascript is counted from 0</p>
+<p>indexOf gets the position of first sting matched</p>
+<p id="here"></p>
+<p>the last index is shown by lastIndexOf()</p>
+<p id="here2"></p>
+<p>if the text is not found then the value return is -1</p>
+<p id="here3"></p>
+<script>
+let name="My name is Laxmikanta Poudel. Laxmi lives in Bharatpur";
+document.getElementById("here").innerHTML=name.indexOf("Laxmi");
+document.getElementById("here2").innerHTML=name.lastIndexOf("Laxmi");
+document.getElementById("here3").innerHTML=name.lastIndexOf("kathmandu");
+</script>
+</body>
