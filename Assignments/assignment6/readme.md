@@ -1,5 +1,6 @@
 # Assignment-5
 Drag and Drop
+````
 Make an Element Draggable
 First of all: To make an element draggable, set the draggable attribute to true:
 
@@ -40,6 +41,7 @@ Call preventDefault() to prevent the browser default handling of the data (defau
 Get the dragged data with the dataTransfer.getData() method. This method will return any data that was set to the same type in the setData() method
 The dragged data is the id of the dragged element ("drag1")
 Append the dragged element into the drop element
+````
 <b>Note text are from W3schools website</b>
 
 
